@@ -17,7 +17,6 @@ dev = ["pytest>=7.0", "pytest-cov>=4.0", "ruff>=0.1.0"]
 [project.scripts]
 compliance-gateway = "compliance_gateway.cli:main"
 
-[project.classifiers]
 classifiers = [
     "Development Status :: 3 - Alpha",
     "Intended Audience :: Developers",
@@ -27,7 +26,6 @@ classifiers = [
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
-    "Industry :: Financial and Insurance Industry",
 ]
 
 [tool.pytest.ini_options]
