@@ -2,10 +2,7 @@
 test_audit.py - 7 tests for the immutable audit trail.
 """
 
-import json
-import os
 import pytest
-import tempfile
 
 from compliance_gateway.audit import AuditLogger
 

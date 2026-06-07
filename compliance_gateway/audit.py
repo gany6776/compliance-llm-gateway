@@ -5,7 +5,6 @@ Append-only JSONL storage with chain verification and query support.
 
 import hashlib
 import json
-import os
 from datetime import datetime, date
 from pathlib import Path
 from typing import Optional, Dict, Any, List
