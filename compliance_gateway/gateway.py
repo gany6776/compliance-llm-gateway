@@ -3,7 +3,7 @@ Main Gateway Orchestrator.
 Coordinates: sanitize input -> call LLM -> log to audit.
 """
 
-from typing import Optional, Dict, Any, List
+from typing import Optional, Dict, Any
 
 from .sanitizer import Sanitizer
 from .audit import AuditLogger
