@@ -2,7 +2,6 @@
 test_sanitizer.py - 25 tests for the four-stage sanitization pipeline.
 """
 
-import pytest
 from compliance_gateway.sanitizer import Sanitizer
 
 
